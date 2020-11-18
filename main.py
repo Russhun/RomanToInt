@@ -45,6 +45,6 @@ if __name__ == "__main__":
     print("LVIII =", Solution().romanToInt("LVIII"))  # 58
     print("MCMXCIV =", Solution().romanToInt("MCMXCIV"))  # 1994
     try:
-        print("MCMXCIV =", Solution().romanToInt("IIV"))  # Error
+        print("IIV =", Solution().romanToInt("IIV"))  # Error
     except Exception as ex:
         print(repr(ex))
